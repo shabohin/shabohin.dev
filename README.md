@@ -1,2 +1,2 @@
 # shabohin.dev
-Mu own site
+My own site
