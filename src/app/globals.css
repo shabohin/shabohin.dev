@@ -1,0 +1,10 @@
+.page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.resume-container {
+    font-family: monospace;
+    line-height: 1.6;
+}
