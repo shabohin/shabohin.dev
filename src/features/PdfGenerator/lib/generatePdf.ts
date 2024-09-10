@@ -14,6 +14,7 @@ export async function generatePdf() {
   try {
     const resumeContent = await readFile(path.join(process.cwd(), 'content', 'full-resume.md'), 'utf8')
     const htmlContent = await markdownToHtml(resumeContent)
+    console.log('resumeContent :>> ', resumeContent);
 
     const doc = new PDFDocument()
     const pdfPath = path.join(process.cwd(), 'public', 'resume.pdf')
@@ -21,7 +22,7 @@ export async function generatePdf() {
 
     doc.pipe(writeStream)
 
-    doc.fontSize(16).text('Резюме', { align: 'center' })
+    doc.fontSize(16).text('Resume1', { align: 'center' })
     doc.moveDown()
     doc.fontSize(12).text(htmlContent, { align: 'left' })
 
@@ -29,9 +30,11 @@ export async function generatePdf() {
 
     await new Promise((resolve) => writeStream.on('finish', resolve))
 
-    console.log('PDF успешно сгенерирован при сборке')
+    console.log('PDF successfully generated on assemblyе')
   } catch (error) {
-    console.error('Ошибка при генерации PDF во время сборки:', error)
+    console.error('Error during PDF generation during build:', error)
     throw error
   }
 }
+
+module.exports = { generatePdf }
