@@ -1,5 +1,3 @@
-// scripts/watch-and-generate-pdf.ts
-
 import { watchAndGeneratePdf } from '../src/features/PdfGenerator'
 
 const stopWatching = watchAndGeneratePdf()
