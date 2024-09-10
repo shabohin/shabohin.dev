@@ -24,39 +24,37 @@ export async function generatePdf() {
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>Roman Shabohin - Resume</title>
           <style>
-            :root {
-              --color-white: rgb(234, 230, 226);
-              --color-light: rgb(164, 163, 161);
-              --color-dark: rgb(92, 93, 95);
-              --color-black: rgb(20, 26, 32);
-            }
+           
             body {
               font-family: 'Helvetica', 'Arial', sans-serif;
               line-height: 1.5;
-              color: var(--color-black);
+              color: #141a20;
               font-size: 9pt;
               margin: 0;
-              // padding: 20pt;
               max-width: 800pt;
               margin: 0 auto;
             }
             h1 {
-              color: var(--color-black);
+              color: #141a20;
               font-size: 18pt;
-              margin-bottom: 5pt;
-              border-bottom: 1pt solid var(--color-light);
-              padding-bottom: 5pt;
+              margin-bottom: 8pt;
             }
             h2 {
-              color: var(--color-dark);
+              color: #141a20;
               font-size: 14pt;
-              margin-top: 15pt;
+              margin-top: 14pt;
               margin-bottom: 5pt;
             }
             h3 {
-              color: var(--color-dark);
+              color: #141a20;
               font-size: 12pt;
               margin-top: 10pt;
+              margin-bottom: 5pt;
+            }
+            h4 {
+              color: #141a20;
+              font-size: 10pt;
+              margin-top: 8pt;
               margin-bottom: 5pt;
             }
             p {
@@ -70,19 +68,11 @@ export async function generatePdf() {
               margin-bottom: 3pt;
             }
             a {
-              color: var(--color-dark) !important;
+              color: #141a20;
               text-decoration: underline;
-
             }
             h1 + p {
               margin-bottom: 10pt;
-            }
-            h2 + p {
-              font-weight: bold;
-            }
-            h2 + p + p {
-              color: var(--color-light);
-              font-style: italic;
             }
           </style>
       </head>
@@ -114,9 +104,9 @@ export async function generatePdf() {
       })
     })
 
-    console.log('PDF успешно сгенерирован')
+    console.log('PDF successfully generated')
   } catch (error) {
-    console.error('Ошибка при генерации PDF:', error)
+    console.error('Error during PDF generation:', error)
     throw error
   }
 }
