@@ -1,2 +1,0 @@
-# Roman Shabohin
-## Frontend Developer

@@ -3,7 +3,7 @@ import path from 'path'
 import { generatePdf } from './generatePdf'
 
 export function watchAndGeneratePdf() {
-  const resumePath = path.join(process.cwd(), 'content', 'full-resume.md')
+  const resumePath = path.join(process.cwd(), 'content', 'resume.md')
   const generatePdfPath = path.join(process.cwd(), 'src', 'features', 'PdfGenerator', 'lib', 'generatePdf.ts')
 
   const watcher = chokidar.watch([resumePath, generatePdfPath], {
