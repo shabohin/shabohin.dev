@@ -9,7 +9,7 @@ const readFile = promisify(fs.readFile)
 export async function generatePdf() {
   try {
     const inputFile = path.join(process.cwd(), 'content', 'resume.md')
-    const outputFile = path.join(process.cwd(), 'public', 'resume.pdf')
+    const outputFile = path.join(process.cwd(), 'out', 'resume.pdf')
 
     const markdown = await readFile(inputFile, 'utf8')
 

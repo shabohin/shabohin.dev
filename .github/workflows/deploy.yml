@@ -41,7 +41,7 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           port: ${{ secrets.SERVER_PORT }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: 'out,public/*.pdf'
+          source: 'out'
           target: '/var/www/shabohin.dev'
 
       - name: Reload Nginx

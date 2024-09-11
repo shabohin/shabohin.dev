@@ -3,7 +3,7 @@ import fs from 'fs'
 import path from 'path'
 
 export async function GET() {
-  const pdfPath = path.join(process.cwd(), 'public', 'resume.pdf')
+  const pdfPath = path.join(process.cwd(), 'out', 'resume.pdf')
 
   if (fs.existsSync(pdfPath)) {
     const pdfBuffer = fs.readFileSync(pdfPath)
