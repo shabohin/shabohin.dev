@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "concurrently 'next dev' 'pnpm run watch-pdf'",
-    "build": "next build && tsx scripts/generate-pdf.ts",
+    "build": "next build",
     "start": "next start",
+    "generate-pdfs": "node scripts/generate-pdfs.js",
     "lint": "next lint",
     "watch-pdf": "tsx scripts/watch-and-generate-pdf.ts"
   },
