@@ -24,9 +24,9 @@ export async function generatePdf() {
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>Roman Shabohin - Resume</title>
           <style>
-           
+            @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
             body {
-              font-family: 'Helvetica', 'Arial', sans-serif;
+              font-family: 'Mulish', 'Helvetica', 'Arial', sans-serif;
               line-height: 1.5;
               color: #141a20;
               font-size: 9pt;
@@ -42,7 +42,7 @@ export async function generatePdf() {
             h2 {
               color: #141a20;
               font-size: 14pt;
-              margin-top: 14pt;
+              margin-top: 10pt;
               margin-bottom: 5pt;
             }
             h3 {
