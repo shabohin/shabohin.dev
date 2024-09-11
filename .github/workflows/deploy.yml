@@ -9,18 +9,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
+
+      - name: Cache pnpm modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+
       - name: Install dependencies
         run: |
           npm install -g pnpm
           pnpm install
+
       - name: Build project
         run: pnpm run build
+
       - name: Generate PDFs
         run: pnpm run generate-pdfs
+
       - name: Deploy to server
         uses: appleboy/scp-action@master
         with:
@@ -28,8 +41,9 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           port: ${{ secrets.SERVER_PORT }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: 'out'
+          source: 'out,public/*.pdf'
           target: '/var/www/shabohin.dev'
+
       - name: Reload Nginx
         uses: appleboy/ssh-action@master
         with:
