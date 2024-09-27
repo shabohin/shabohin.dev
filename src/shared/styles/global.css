@@ -1,0 +1,77 @@
+:root {
+  --symbol-width: 7px;
+  --symbol-height: 9px;
+  --scale: 1;
+  --char-width: calc(var(--symbol-width) * var(--scale));
+  --char-height: calc(var(--symbol-height) * var(--scale));
+
+  --cols: 80;
+  --rows: 25;
+  --max-cols: 80;
+
+  --background-color: #020;
+  --color: #090;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Old Type';
+  src: url('/fonts/old-type.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (min-width: 560px) {
+  :root {
+    --scale: 2;
+  }
+}
+
+@media (min-width: 1120px) {
+  :root {
+    --scale: 3;
+  }
+}
+
+@media (min-width: 1680px) {
+  :root {
+    --scale: 4;
+  }
+}
+@media (min-width: 2240px) {
+  :root {
+    --scale: 5;
+  }
+}
+@media (min-width: 2800px) {
+  :root {
+    --scale: 6;
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+  font-family: 'Old Type', 'Courier New', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: var(--char-height);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: var(--char-height);
+}

@@ -1,3 +1,11 @@
+// import { Window } from '@/shared/components/Window/Window'
+
 export default function Home() {
-    return <main>shabohin.dev</main>
+  return (
+    <>
+      {/* <Window title="Welcome"> */}
+      <p>Hello, Retro World!</p>
+      {/* </Window> */}
+    </>
+  )
 }

@@ -13,6 +13,7 @@
   "dependencies": {
     "@types/marked": "^6.0.0",
     "chokidar": "^3.6.0",
+    "classnames": "^2.5.1",
     "html-pdf": "^3.0.1",
     "markdown-it": "^14.1.0",
     "marked": "^14.1.1",
