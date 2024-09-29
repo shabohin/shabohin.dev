@@ -6,7 +6,7 @@
     "dev": "concurrently 'next dev' 'pnpm run watch-pdf'",
     "build": "next build",
     "start": "next start",
-    "generate-pdfs": "tsx scripts/generate-pdfs.ts",
+    "generate-pdf": "tsx scripts/generate-pdf.ts",
     "lint": "next lint",
     "watch-pdf": "tsx scripts/watch-and-generate-pdf.ts"
   },

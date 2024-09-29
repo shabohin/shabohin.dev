@@ -19,6 +19,7 @@ export const LayoutSizeObserver = () => {
 
       document.documentElement.style.setProperty('--cols', cols.toString())
       document.documentElement.style.setProperty('--rows', rows.toString())
+      document.documentElement.style.setProperty('--color', 'rgb(180, 180, 180)')
 
       console.log(
         `Screen size: ${cols}x${rows} characters | Char size: ${symbolWidth * scale}x${
