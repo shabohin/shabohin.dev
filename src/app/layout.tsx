@@ -1,13 +1,14 @@
-import { ReactNode } from 'react'
 import '@/shared/styles/global.css'
+import { Layout } from '@/widgets/Layout/Layout'
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
-        <div className="window">
-          <div className="content">{children}</div>
-        </div>
+        <Layout>
+          {children}
+          <Layout.Footer>footer</Layout.Footer>
+        </Layout>
       </body>
     </html>
   )

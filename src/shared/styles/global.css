@@ -1,16 +1,18 @@
 :root {
-  --symbol-width: 7px;
-  --symbol-height: 9px;
+  --symbol-width: 12px;
+  --symbol-height: 14px;
+  --symbol-line-height: 20px;
   --scale: 1;
   --char-width: calc(var(--symbol-width) * var(--scale));
-  --char-height: calc(var(--symbol-height) * var(--scale));
+  --char-height: calc(var(--symbol-line-height) * var(--scale));
+  --font-size: calc(var(--symbol-height) * var(--scale));
 
   --cols: 80;
   --rows: 25;
   --max-cols: 80;
 
-  --background-color: #020;
-  --color: #090;
+  --background-color: rgb(44, 44, 44);
+  --color: rgb(180, 180, 180);
 }
 
 * {
@@ -19,50 +21,53 @@
   padding: 0;
 }
 
-@font-face {
-  font-family: 'Old Type';
-  src: url('/fonts/old-type.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@media (min-width: 560px) {
+@media (min-width: 960px) {
   :root {
     --scale: 2;
   }
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 1920px) {
   :root {
     --scale: 3;
   }
 }
 
-@media (min-width: 1680px) {
+@media (min-width: 2880px) {
   :root {
     --scale: 4;
   }
 }
-@media (min-width: 2240px) {
+
+@media (min-width: 3840px) {
   :root {
     --scale: 5;
   }
 }
-@media (min-width: 2800px) {
-  :root {
-    --scale: 6;
-  }
+
+
+@font-face {
+  font-family: 'Old Time';
+  src: url('/fonts/old-time.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
   background-color: var(--background-color);
   color: var(--color);
-  font-family: 'Old Type', 'Courier New', monospace;
+  font-family: 'Old Time', 'Courier New', monospace;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  font-size: var(--char-height);
+  font-size: var(--font-size);
+  line-height: var(--char-height);
+}
+
+body ::selection {
+  background-color: var(--color);
+  color: var(--background-color);
 }
 
 h1,
@@ -73,5 +78,5 @@ h5,
 h6 {
   font-weight: normal;
   font-style: normal;
-  font-size: var(--char-height);
+  font-size: var(--font-size);
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import fs from 'fs/promises'
 import path from 'path'
 import ResumeDisplay from '@/entities/Resume/ui/ResumeDisplay'
+import { Layout } from '@/widgets/Layout/Layout'
 
 async function getResumeContent() {
   const resumePath = path.join(process.cwd(), 'content', 'resume.md')
@@ -13,8 +14,11 @@ export default async function ResumePage() {
   const resumeContent = await getResumeContent()
 
   return (
-    <div className="page-container">
-      <ResumeDisplay content={resumeContent} />
-    </div>
+    <>
+      <Layout.Header>Resume</Layout.Header>
+      <Layout.Main>
+        <ResumeDisplay content={resumeContent} />
+      </Layout.Main>
+    </>
   )
 }
