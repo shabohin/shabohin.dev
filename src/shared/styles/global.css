@@ -1,0 +1,82 @@
+:root {
+  --symbol-width: 12px;
+  --symbol-height: 14px;
+  --symbol-line-height: 20px;
+  --scale: 1;
+  --char-width: calc(var(--symbol-width) * var(--scale));
+  --char-height: calc(var(--symbol-line-height) * var(--scale));
+  --font-size: calc(var(--symbol-height) * var(--scale));
+
+  --cols: 80;
+  --rows: 25;
+  --max-cols: 80;
+
+  --background-color: rgb(44, 44, 44);
+  --color: rgb(44, 44, 44);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 960px) {
+  :root {
+    --scale: 2;
+  }
+}
+
+@media (min-width: 1920px) {
+  :root {
+    --scale: 3;
+  }
+}
+
+@media (min-width: 2880px) {
+  :root {
+    --scale: 4;
+  }
+}
+
+@media (min-width: 3840px) {
+  :root {
+    --scale: 5;
+  }
+}
+
+
+@font-face {
+  font-family: 'Old Time';
+  src: url('/fonts/old-time.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+  font-family: 'Old Time', 'Courier New', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: var(--font-size);
+  line-height: var(--char-height);
+}
+
+body ::selection {
+  background-color: var(--color);
+  color: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: var(--font-size);
+}

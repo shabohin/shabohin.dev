@@ -6,13 +6,14 @@
     "dev": "concurrently 'next dev' 'pnpm run watch-pdf'",
     "build": "next build",
     "start": "next start",
-    "generate-pdfs": "tsx scripts/generate-pdfs.ts",
+    "generate-pdf": "tsx scripts/generate-pdf.ts",
     "lint": "next lint",
     "watch-pdf": "tsx scripts/watch-and-generate-pdf.ts"
   },
   "dependencies": {
     "@types/marked": "^6.0.0",
     "chokidar": "^3.6.0",
+    "classnames": "^2.5.1",
     "html-pdf": "^3.0.1",
     "markdown-it": "^14.1.0",
     "marked": "^14.1.1",

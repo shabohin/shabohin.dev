@@ -1,0 +1,37 @@
+.container {
+  width: calc(var(--char-width) * var(--cols) - var(--scale) * 4px);
+  height: calc(var(--char-height) * var(--rows) - 4px * var(--scale));
+  position: relative;
+  overflow: hidden;
+  border: calc(var(--scale) * 2px) solid var(--color);
+  padding: calc(var(--scale) * 2px) calc(var(--scale) * 2px);
+  margin: calc(var(--scale) * 7px) calc(var(--scale) * 3px);
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
+}
+
+.content {
+  border: calc(var(--scale) * 2px) solid var(--color);
+  padding: calc(var(--scale) * 7px) calc(var(--scale) * 3px);
+}
+
+.content + .content {
+  margin-top: calc(var(--scale) * 2px);
+}
+
+.header {
+  /* height: calc(var(--char-height) * 2); */
+}
+
+.main {
+}
+
+.footer {
+}
+
+#debug-info {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+}

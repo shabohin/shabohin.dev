@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Big Old Type';
+  src: url('/fonts/big-old-type.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Big Old Type One';
+  src: url('/fonts/big-old-type-one.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.new {
+  font-family: 'Big Old Type', 'Courier New', monospace;
+}
+.one {
+  font-family: 'Big Old Type One', 'Courier New', monospace;
+}
