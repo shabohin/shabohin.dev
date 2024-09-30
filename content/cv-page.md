@@ -1,9 +1,3 @@
-# Roman Shabohin
-
-Warsaw, Poland | +48 571 088 414 | [r.shabohin@gmail.com](mailto:r.shabohin@gmail.com?subject=CV) | [LinkedIn](https://www.linkedin.com/in/roman-shabohin/) | [shabohin.dev](https://shabohin.dev)
-
-## Senior Frontend Web Developer
-
 Experienced frontend developer with a strong background in React, TypeScript, and modern web technologies. Proven track record of delivering complex web applications and mentoring junior developers.
 
 ### Professional Experience

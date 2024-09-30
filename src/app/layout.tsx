@@ -1,4 +1,5 @@
-import '@/shared/styles/global.css'
+import './global.css'
+
 import { Layout } from '@/widgets/Layout/Layout'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

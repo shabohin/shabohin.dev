@@ -7,6 +7,10 @@ const nextConfig = {
         source: '/resume.pdf',
         destination: '/api/resume.pdf',
       },
+      {
+        source: '/cv.pdf',
+        destination: '/api/cv.pdf',
+      },
     ]
   },
 }

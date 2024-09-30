@@ -1,6 +1,6 @@
-import { watchAndGeneratePdf } from '../src/features/PdfGenerator'
+import { watchAndGeneratePDF } from '../src/features/PDFGenerator'
 
-const stopWatching = watchAndGeneratePdf()
+const stopWatching = watchAndGeneratePDF()
 
 process.on('SIGINT', () => {
   console.log('Stopping PDF watcher')
