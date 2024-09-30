@@ -11,8 +11,9 @@
   --rows: 25;
   --max-cols: 80;
 
-  --background-color: rgb(44, 44, 44);
-  --color: rgb(44, 44, 44);
+  --background-color: rgb(53, 49, 44);
+  --color: rgb(53, 49, 44);
+  /* rgb(30 26 22) */
 }
 
 * {
@@ -59,7 +60,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 100lvh;
   font-size: var(--font-size);
   line-height: var(--char-height);
 }
@@ -74,20 +75,22 @@ h2,
 h3,
 h4,
 h5,
-h6,
-strong,
-em {
+h6 {
   font-weight: normal;
   font-style: normal;
-  line-height: 1;
-  font-size: calc(var(--font-size) * 2);
+  color: var(--background-color);
+  background-color: var(--color);
+  font-size: calc(var(--font-size));
+  /* margin-left: calc(var(--scale) * -1px); */
 }
 
-h1 {
-  line-height: 1;
+strong {
+  font-weight: normal;
+  font-style: normal;
+  font-size: var(--font-size);
+  border-bottom: calc(var(--scale) * 2px) solid var(--color);
 }
 
-strong,
 em {
   font-weight: normal;
   font-style: normal;
@@ -102,7 +105,7 @@ a {
 
 li {
   padding-left: calc(var(--char-width) - var(--scale) * 3px);
-  margin-left: calc(var(--char-width) - var(--scale) * 4px);
+  margin-left: calc(var(--char-width) * 1 + var(--scale) * 5px);
 }
 
 li::marker {

@@ -1,8 +1,3 @@
-# Roman Shabohin
-
-Warsaw, Poland | +48 571 088 414 | [r.shabohin@gmail.com](mailto:r.shabohin@gmail.com?subject=Resume) | [LinkedIn](https://www.linkedin.com/in/roman-shabohin/) | [shabohin.dev](https://shabohin.dev)
-
-## Senior Frontend Web Developer
 
 ### Professional Experience
 
@@ -22,9 +17,7 @@ Warsaw, Poland | +48 571 088 414 | [r.shabohin@gmail.com](mailto:r.shabohin@gmai
 
 **Polotsk State University**, Novopolotsk | _Bachelor of Computer Software Engineering_ | 2014
 
-### Skills
-
-#### Technical Skills
+### Technical Skills
 
 - Frontend: React, Redux, React Native, Next.js, JavaScript, TypeScript, HTML5, CSS3/SCSS, Svelte
 - State Management: Redux, Redux Toolkit, MobX, Zustand, React Query
@@ -32,7 +25,7 @@ Warsaw, Poland | +48 571 088 414 | [r.shabohin@gmail.com](mailto:r.shabohin@gmai
 - Other: RESTful APIs, GraphQL, Git, CI/CD, Docker, Nginx, WebRTC, Formik, React Hook Forms
 - UI Libraries: Material UI, Bootstrap, Tailwind
 
-#### Soft Skills
+### Soft Skills
 
 Communication, teamwork, leadership, problem-solving, Agile methodologies, rapid learning
 
