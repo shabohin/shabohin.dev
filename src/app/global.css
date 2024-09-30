@@ -101,11 +101,13 @@ a {
 }
 
 li {
-  margin-left: calc(var(--char-width));
+  padding-left: calc(var(--char-width) - var(--scale) * 3px);
+  margin-left: calc(var(--char-width) - var(--scale) * 4px);
 }
 
 li::marker {
   content: '-';
   color: var(--color);
   font-size: var(--font-size);
+  width: var(--char-width);
 }

@@ -5,7 +5,7 @@ import { MarkdownDisplay } from '@/entities/MarkdownDisplay/ui/MarkdownDisplay'
 import { Layout } from '@/widgets/Layout/Layout'
 
 async function getCVContent() {
-  const resumePath = path.join(process.cwd(), 'content', 'cv.md')
+  const resumePath = path.join(process.cwd(), 'content', 'cv-page.md')
   const resumeContent = await fs.readFile(resumePath, 'utf8')
   return resumeContent
 }
@@ -15,7 +15,9 @@ export default async function CVPage() {
 
   return (
     <>
-      <Layout.Header>CV</Layout.Header>
+      <Layout.Header>
+        <h1>CV</h1>
+      </Layout.Header>
       <Layout.Main>
         <MarkdownDisplay content={resumeContent} />
       </Layout.Main>

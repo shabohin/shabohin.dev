@@ -1,10 +1,16 @@
-import { generatePdf } from '../src/features/PdfGenerator'
+import { generatePDF } from '../src/features/PDFGenerator'
+import path from 'path'
 
-generatePdf()
-  .then(() => {
-    console.log('PDF generation complete')
-  })
-  .catch((error) => {
-    console.error('PDF generation failed:', error)
-    process.exit(1)
-  })
+const resumeMarkdownPath = path.join(process.cwd(), 'content', 'resume.md')
+const resumeOutputPath = path.join(process.cwd(), 'out', 'resume.pdf')
+
+const cvMarkdownPath = path.join(process.cwd(), 'content', 'cv.md')
+const cvOutputPath = path.join(process.cwd(), 'out', 'cv.pdf')
+
+try {
+  generatePDF(resumeMarkdownPath, resumeOutputPath)
+  generatePDF(cvMarkdownPath, cvOutputPath)
+  console.log('PDF generation completed successfully.')
+} catch (error) {
+  console.error('PDF generation failed:', error)
+}
