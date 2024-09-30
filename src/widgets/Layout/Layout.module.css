@@ -20,10 +20,13 @@
 }
 
 .header {
-  /* height: calc(var(--char-height) * 2); */
+  font-size: calc(var(--font-size) * 2);
+  color: var(--color);
+  background-color: var(--background-color);
 }
 
 .main {
+  overflow-y: scroll;
 }
 
 .footer {

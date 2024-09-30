@@ -5,7 +5,7 @@ import { MarkdownDisplay } from '@/entities/MarkdownDisplay/ui/MarkdownDisplay'
 import { Layout } from '@/widgets/Layout/Layout'
 
 async function getResumeContent() {
-  const resumePath = path.join(process.cwd(), 'content', 'resume.md')
+  const resumePath = path.join(process.cwd(), 'content', 'resume-page.md')
   const resumeContent = await fs.readFile(resumePath, 'utf8')
   return resumeContent
 }

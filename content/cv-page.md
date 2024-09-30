@@ -113,9 +113,7 @@ Experienced frontend developer with a strong background in React, TypeScript, an
 
 **Polotsk State University**, Novopolotsk | _Specialist, Computer Software Engineering_ | 2009 - 2014
 
-### Skills
-
-#### Technical Skills
+### Technical Skills
 
 - Frontend: React, Redux, React Native, Next.js, JavaScript, TypeScript, HTML5, CSS3/SCSS, Svelte
 - State Management: Redux, Redux Toolkit, MobX, Zustand, React Query
@@ -123,7 +121,7 @@ Experienced frontend developer with a strong background in React, TypeScript, an
 - Other: RESTful APIs, GraphQL, Git, CI/CD, Docker, Nginx, WebRTC, Formik, React Hook Forms
 - UI Libraries: Material UI, Bootstrap, Tailwind
 
-#### Soft Skills
+### Soft Skills
 
 - Communication: Excellent verbal and written communication skills
 - Teamwork: Strong ability to collaborate in cross-functional teams

@@ -15,9 +15,7 @@ export default async function CVPage() {
 
   return (
     <>
-      <Layout.Header>
-        <h1>CV</h1>
-      </Layout.Header>
+      <Layout.Header>CV</Layout.Header>
       <Layout.Main>
         <MarkdownDisplay content={resumeContent} />
       </Layout.Main>
