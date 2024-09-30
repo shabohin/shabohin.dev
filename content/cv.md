@@ -35,82 +35,82 @@ Experienced frontend developer with a strong background in React, TypeScript, an
 
 ### Projects
 
-**Norman** | Dec 2023 - Sep 2024
+**Norman** | December 2023 - September 2024
 
 - Accounting Autopilot for modern entrepreneurs
 - React, TypeScript, Redux Toolkit, Vite, Playwright
 
-**MTS Promotion** | Oct 2023 - Nov 2023
+**MTS Promotion** | October 2023 - November 2023
 
 - Birthday promotion campaign for MTS
 - React, TypeScript, Redux, Jest
 
-**Sosedi CRM** | Apr 2023 - Sep 2023
+**Sosedi CRM** | April 2023 - September 2023
 
 - Staff recruitment automation for store chains
 - React, TypeScript, Vite, Redux, JRPC
 
-**Ogorod** | Oct 2022 - Apr 2023
+**Ogorod** | October 2022 - April 2023
 
 - Comprehensive cottage management application
 - React, Redux, TypeScript, JRPC, Jest
 
-**World of Tanks Promotion** | Jul 2022 - Dec 2022
+**World of Tanks Promotion** | July 2022 - December 2022
 
 - New Year promotion for World of Tanks
 - React, TypeScript, Redux, REST API, Jest
 
-**Blink** | Jul 2021 - Apr 2022
+**Blink** | July 2021 - April 2022
 
 - All-in-one ad creation, tracking, and publication platform
 - React, Redux, TypeScript, Next.js, Jest
 
-**Shop-makers** | Jun 2021 - Apr 2022
+**Shop-makers** | June 2021 - April 2022
 
 - Multi-service application integrating payment services, advertising, money management, and cashback rewards
 - React, Redux, TypeScript, Next.js, Jest
 
-**Innerica** | Sep 2021 - Dec 2021
+**Innerica** | September 2021 - December 2021
 
 - Information site for real-time drilling monitoring software
 - React, TypeScript, Next.js, Tailwind CSS, Jest
 
-**Shares** | Feb 2021 - May 2021
+**Shares** | February 2021 - May 2021
 
 - Social network and investment platform
 - React Native, Mobx, TypeScript, Jest
 
-**Soundcast** | Apr 2020 - Feb 2021
+**Soundcast** | April 2020 - February 2021
 
 - Modern platform for easy access to podcasts
 - React, Redux, TypeScript, Jest, Svelte
 
-**Reductions Privees** | Oct 2019 - Apr 2020
+**Reductions Privees** | October 2019 - April 2020
 
 - Platform for accessing, tracking, and managing discounts
 - React, Redux, JavaScript, GraphQL, Next.js
 
-**Ology** | Aug 2019 - Apr 2020
+**Ology** | August 2019 - April 2020
 
 - SaaS solution for business analysts, project managers, and product owners
 - React, Redux, JavaScript, GraphQL, Jest
 
-**Job Advisor** | May 2019 - Aug 2019
+**Job Advisor** | May 2019 - August 2019
 
 - First review platform for the Moroccan job market
 - React, Redux, JavaScript, GraphQL, Jest
 
-**Fingers Media Site** | Mar 2018 - Apr 2019
+**Fingers Media Site** | March 2018 - April 2019
 
 - Web-site for mobile-app and software development company
 - PHP, SCSS, JavaScript, jQuery
 
-**HopKidz** | Apr 2017 - Feb 2018
+**HopKidz** | April 2017 - February 2018
 
 - Platform connecting parents with trusted local childcare providers
 - React, Node.js, Redux, SCSS, Rest API
 
-**Artnous** | Jan 2017 - Apr 2017
+**Artnous** | January 2017 - April 2017
 
 - Website for a residential and corporate renovation company
 - React, Node.js, Express, MongoDB, Redux
