@@ -67,7 +67,7 @@ Experienced frontend developer with a strong background in React, TypeScript, an
 
 **Shop-makers** | June 2021 - April 2022
 
-- Multi-service application integrating payment services, advertising, money management, and cashback rewards
+- Multi-service application integrating payment services, advertising and cashback rewards
 - React, Redux, TypeScript, Next.js, Jest
 
 **Innerica** | September 2021 - December 2021
@@ -123,7 +123,7 @@ Experienced frontend developer with a strong background in React, TypeScript, an
 
 #### Technical Skills
 
-- Frontend: React, Redux, React Native, Next.js, JavaScript, TypeScript, HTML5, CSS3/SCSS, Svelte
+- Frontend: React, Redux, React Native, Next.js, JavaScript, TypeScript, HTML5, CSS, Svelte
 - State Management: Redux, Redux Toolkit, MobX, Zustand, React Query
 - Testing: Jest, Enzyme, React Testing Library, Playwright
 - Other: RESTful APIs, GraphQL, Git, CI/CD, Docker, Nginx, WebRTC, Formik, React Hook Forms
