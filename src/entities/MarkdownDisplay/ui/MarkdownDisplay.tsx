@@ -5,8 +5,6 @@ interface Props {
   content: string
 }
 
-const ResumeDisplay: React.FC<Props> = ({ content }) => {
+export const MarkdownDisplay: React.FC<Props> = ({ content }) => {
   return <ReactMarkdown>{content}</ReactMarkdown>
 }
-
-export default ResumeDisplay

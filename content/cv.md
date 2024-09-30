@@ -1,130 +1,145 @@
 # Roman Shabohin
 
-Senior React Developer
+Warsaw, Poland | +48 571 088 414 | [r.shabohin@gmail.com](mailto:r.shabohin@gmail.com?subject=CV) | [LinkedIn](https://www.linkedin.com/in/roman-shabohin/) | [shabohin.dev](https://shabohin.dev)
 
-Warsaw, Poland | +48 571 088 414 | [r.shabohin@gmail.com](mailto:r.shabohin@gmail.com) | [LinkedIn](https://www.linkedin.com/in/roman-shabohin/)
+## Senior Frontend Web Developer
 
-## Professional Summary
+Experienced frontend developer with a strong background in React, TypeScript, and modern web technologies. Proven track record of delivering complex web applications and mentoring junior developers.
 
-Senior React Developer with 6.5+ years of experience in frontend development. Deep knowledge of React, JavaScript, and TypeScript. Strong understanding of Object-oriented and Prototype-based programming principles. Experienced in all stages of the software development cycle and various development methodologies. Proven track record in leading React development teams and communicating effectively with clients.
+### Professional Experience
 
-## Skills
+**Norman Finance**, Warsaw | _Frontend Web Developer_ | December 2023 - September 2024
 
-- **Languages:** JavaScript, TypeScript
-- **Frontend:** React, Redux, React Native, HTML5, CSS3, SCSS, PostCSS
-- **Frameworks/Libraries:** Next.js, Apollo GraphQL, Material UI, Bootstrap, jQuery, Tailwind
-- **State Management:** Redux, MobX, Zustand
-- **Testing:** Jest, Enzyme
-- **Backend Integration:** REST API, gRPC, GraphQL
-- **Tools:** Git, CI/CD, Docker, Nginx
-- **Other:** Canvas, WebRTC, Formik, React Hook Forms, Svelte
+- Developed and maintained a complex web application using React and TypeScript
+- Established core architecture and best practices for the frontend codebase
+- Implemented tax form registration feature, attracting initial clients to the product
 
-## Professional Experience
+**Elasticsoft**, Warsaw | _Frontend Web Developer_ | February 2022 - December 2023
 
-### Senior React Developer | NDA Project
+- Contributed to various web development projects using modern frontend technologies
 
-_April 2023 - September 2023_
+**Fingers Media**, Minsk | _Frontend Developer_ | February 2018 - April 2023
 
-- Developed an application for automating staff recruitment in retail chains
-- Implemented new features and maintained existing functionality
-- Conducted code reviews and mentored other developers
-- **Tech Stack:** ReactJS, Next.js, TypeScript, Zustand, WebRTC, Jest
+- Spearheaded the development of 10+ web applications using React, Redux, and TypeScript
+- Mentored junior developers and introduced in-house courses on React, Redux, and TypeScript
+- Implemented complex UI components and RESTful API integrations
 
-### Senior React Developer | Ogorod
+**Freelance**, Novopolotsk | _Full Stack Developer_ | April 2017 - January 2018
 
-_October 2022 - April 2023_
+- Developed frontend and backend components for Artnous, a renovation company
 
-- Developed a comprehensive cottage management app
-- Led feature implementation and mentored team members
-- **Tech Stack:** ReactJS, Next.js, TypeScript, Zustand, WebRTC, Jest
+**Novopolotsk Trade House** | _Software Engineer_ | January 2016 - March 2017
 
-### Senior React Developer | NDA Project
+- Maintained and upgraded enterprise automation systems
+- Assisted in technical support and system migrations
 
-_July 2022 - December 2022_
+### Projects
 
-- Conducted code analysis and provided technical designs
-- Managed project reporting and client demonstrations
-- **Tech Stack:** ReactJS, Next.js, TypeScript, Redux, Jest
+1. **Norman** (Dec 2023 - Sep 2024)
 
-### Senior React Developer | Shop-makers
+   - Description: Accounting Autopilot for modern entrepreneurs
+   - Technologies: React, TypeScript, Redux, REST API, Material-UI
 
-_June 2021 - April 2022_
+2. **MTS Promotion** (Oct 2023 - Nov 2023)
 
-- Developed a multi-service financial application from scratch
-- Led team development efforts and conducted code reviews
-- **Tech Stack:** ReactJS, Next.js, TypeScript, Redux, Jest
+   - Description: Birthday promotion campaign for MTS
+   - Technologies: React, TypeScript, Redux Toolkit, Styled-components, Jest
 
-### Senior React Developer | Bliink
+3. **Sosedi CRM** (Apr 2023 - Sep 2023)
 
-_July 2021 - April 2022_
+   - Description: Staff recruitment automation for store chains
+   - Technologies: React, TypeScript, Redux, GraphQL, React Query
 
-- Built an all-in-one ad creation and tracking platform
-- Managed frontend development and feature implementation
-- **Tech Stack:** ReactJS, Next.js, TypeScript, Redux, Jest
+4. **Ogorod** (Oct 2022 - Apr 2023)
 
-### Senior React Developer | Innerica
+   - Description: Comprehensive cottage management application
+   - Technologies: React Native, Redux, TypeScript, Firebase, Jest
 
-_September 2021 - December 2021_
+5. **World of Tanks Promotion** (Jul 2022 - Dec 2022)
 
-- Developed an information site for real-time well drilling monitoring software
-- **Tech Stack:** ReactJS, TypeScript, Jest, SVG animation
+   - Description: New Year promotion for World of Tanks
+   - Technologies: React, TypeScript, Redux, Webpack, SCSS
 
-### React Developer | Shares
+6. **Blink** (Jul 2021 - Apr 2022)
 
-_February 2021 - May 2021_
+   - Description: All-in-one ad creation, tracking, and publication platform
+   - Technologies: React, Redux, TypeScript, GraphQL, Ant Design
 
-- Created a social investing platform from scratch
-- **Tech Stack:** React Native, Next.js, MobX, TypeScript, Jest
+7. **Shop-makers** (Jun 2021 - Apr 2022)
 
-### React Developer | Soundcast
+   - Description: Multi-service application integrating payment services, advertising, money management, and cashback rewards
+   - Technologies: React, Redux, TypeScript, REST API, Material-UI
 
-_April 2020 - February 2021_
+8. **Innerica** (Sep 2021 - Dec 2021)
 
-- Developed a media platform website from the ground up
-- **Tech Stack:** ReactJS, NextJS, MobX, TypeScript, Jest
+   - Description: Information site for real-time drilling monitoring software
+   - Technologies: React, TypeScript, Next.js, Tailwind CSS, Jest
 
-### React Developer | Reductions Privees
+9. **Shares** (Feb 2021 - May 2021)
 
-_October 2019 - April 2020_
+   - Description: Social network and investment platform
+   - Technologies: React, Redux, TypeScript, Socket.io, Styled-components
 
-- Built a comprehensive discount system platform
-- **Tech Stack:** ReactJS, NextJS, Express, TypeScript, GraphQL, Redux, Jest
+10. **Soundcast** (Apr 2020 - Feb 2021)
 
-### React Developer | Ology
+    - Description: Modern platform for easy access to podcasts
+    - Technologies: React, Redux, TypeScript, GraphQL, Material-UI
 
-_August 2019 - April 2020_
+11. **Reductions Privees** (Oct 2019 - Apr 2020)
 
-- Developed a SaaS platform for business analysts and project managers
-- **Tech Stack:** React, Redux, Redux-logic, HTML, CSS, SCSS, Canvas
+    - Description: Platform for accessing, tracking, and managing discounts
+    - Technologies: React, Redux, JavaScript, REST API, Bootstrap
 
-### React Developer | Job Advisor
+12. **Ology** (Aug 2019 - Apr 2020)
 
-_May 2019 - August 2019_
+    - Description: SaaS solution for business analysts, project managers, and product owners
+    - Technologies: React, Redux, JavaScript, SCSS, Jest
 
-- Created a review platform for the Moroccan job market
-- **Tech Stack:** JavaScript, React, Redux, Redux-logic, HTML, CSS
+13. **Job Advisor** (May 2019 - Aug 2019)
 
-### React Developer | Fingers Media
+    - Description: First review platform for the Moroccan job market
+    - Technologies: React, Redux, JavaScript, REST API, Ant Design
 
-_March 2018 - April 2019_
+14. **Fingers Media Site** (Mar 2018 - Apr 2019)
 
-- Developed websites for a mobile app and software development company
-- **Tech Stack:** React, PHP, HTML, CSS, SCSS, Canvas
+    - Description: Web-site for mobile-app and software development company
+    - Technologies: React, Redux, JavaScript, Webpack, SCSS
 
-### React Developer | HopKidz
+15. **HopKidz** (Apr 2017 - Feb 2018)
 
-_April 2017 - February 2018_
+    - Description: Platform connecting parents with trusted local childcare providers
+    - Technologies: React, Node.js, MongoDB, Express, Redux
 
-- Built a web app platform connecting parents with local childcare providers
-- **Tech Stack:** JavaScript, React, Redux, Redux-logic, HTML, CSS
+16. **Artnous** (Jan 2017 - Apr 2017)
+    - Description: Website for a residential and corporate renovation company
+    - Technologies: React, Node.js, Express, MongoDB, Redux
 
-## Education
+### Education
 
-**State University**, 2014  
-_Bachelor of Science in Computer Software Engineering_
+**Polotsk State University**, Novopolotsk | _Specialist, Computer Software Engineering_ | 2009 - 2014
 
-## Languages
+### Skills
+
+#### Technical Skills
+
+- Frontend: React, Redux, React Native, Next.js, TypeScript, JavaScript (ES6+), HTML5, CSS3/SCSS, Svelte
+- State Management: Redux, Redux Toolkit, MobX, Zustand, React Query
+- Testing: Jest, Enzyme, React Testing Library, Playwright
+- Other: RESTful APIs, GraphQL, Git, CI/CD, Docker, Nginx, WebRTC, Formik, React Hook Forms
+- UI Libraries: Material UI, Bootstrap, Tailwind
+
+#### Soft Skills
+
+- Communication: Excellent verbal and written communication skills
+- Teamwork: Strong ability to collaborate in cross-functional teams
+- Problem-solving: Analytical thinking and creative approach to challenges
+- Leadership: Experience in mentoring junior developers
+- Adaptability: Quick learner, able to adapt to new technologies and methodologies
+- Time Management: Efficient in managing multiple projects and meeting deadlines
+- Client Relations: Experience in understanding and addressing client needs
+
+### Languages
 
 - Russian (Native)
-- English (Intermediate)
-- Polish (Basic)
+- English (Professional working proficiency)
+- Polish (Elementary proficiency)
