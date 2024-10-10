@@ -1,6 +1,6 @@
 # Roman Shabohin
 
-Warsaw, Poland | +48 571 088 414 | [r.shabohin@gmail.com](mailto:r.shabohin@gmail.com?subject=Resume) | [LinkedIn](https://www.linkedin.com/in/roman-shabohin/) | [shabohin.dev](https://shabohin.dev)
+Warsaw, Poland | +48 571 088 414 | [r.shabohin@gmail.com](mailto:r.shabohin@gmail.com?subject=Resume) | [LinkedIn](https://www.linkedin.com/in/roman-shabohin/)
 
 ## Senior Frontend Web Developer
 
